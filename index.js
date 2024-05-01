@@ -1,17 +1,17 @@
 // Code your solution in this file!
 
 function distanceFromHqInBlocks(blocks) {
-    const hqLocation = 42; // Assuming the headquarters is located at block 42
+    const hqLocation = 42; 
     return Math.abs(blocks - hqLocation);
   }
   
   function distanceFromHqInFeet(blocks) {
-    const blockInFeet = 264; // Assuming each block is 264 feet
+    const blockInFeet = 264; 
     return distanceFromHqInBlocks(blocks) * blockInFeet;
   }
   
   function distanceTravelledInFeet(start, destination) {
-    const blockInFeet = 264; // Assuming each block is 264 feet
+    const blockInFeet = 264; 
     return Math.abs(start - destination) * blockInFeet;
   }
   
